@@ -1,27 +1,41 @@
-.page1{
-    background-color: aqua;
-    width: 100%;
-    height: 50vh;
-    position: relative;
-    top: 0;
-    left:0;
-
+.page1 {
+  background-color: aqua;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
-.page2{
-    display: grid;
-    background-color: red;
-    width: 100%;
-    height: 50vh;
-    top: 0;
-    left:0;
-
+.page1 h1 {
+  text-align: center;
+  font-size: 49px;
+  color: red;
+  background-color: whitesmoke;
 }
 
-
-
-.page1 #myname{
-    text-align: center;
-    font-size: 49px;
-    color: red;
+.page1 h2 {
+  color: pink;
 }
+
+.page2 {
+  color: red;
+}
+
+.page2 img {
+  width: 40%;
+}
+
+.page2 h1 {
+  color: white;
+  width: 50%;
+}
+
+.page2 .page3 {
+  position: relative;
+}
+
+.page2 .page3 img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
